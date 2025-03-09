@@ -32,5 +32,8 @@ function addTask() {
 }
 
 function delTask() {
+  //ul.lastElementChild.remove();
+  //ul.remove();
+  //ul.innerHTML = "";
   ul.replaceChildren();
 }
